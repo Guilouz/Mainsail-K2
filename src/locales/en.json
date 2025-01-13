@@ -1330,6 +1330,7 @@
             "Vertically": "vertically",
             "Webcams": "Webcams",
             "WebrtcCameraStreamer": "WebRTC (camera-streamer)",
+            "WebrtcCrealityk2Rtc": "WebRTC (Creality K2 Plus)",
             "WebrtcGo2rtc": "WebRTC (go2rtc)",
             "WebrtcJanus": "WebRTC (janus-gateway)",
             "WebrtcMediaMTX": "WebRTC (MediaMTX)"

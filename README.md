@@ -1,7 +1,7 @@
 <p align="center">
   <a>
     <img src="https://raw.githubusercontent.com/mainsail-crew/docs/master/assets/img/logo.png" alt='Mainsail logo' height="152">
-    <h1 align="center">Mainsail</h1>
+    <h1 align="center">Mainsail for Creality K2 Series</h1>
   </a>
 </p>
 <p align="center">
@@ -120,6 +120,7 @@ Looking for a first issue to tackle?
 - [lixxbox](https://github.com/lixxbox) for the Mainsail logo & Docs
 - [Vue.js](https://vuejs.org/): The Progressive JavaScript Framework
 - [Vuetify](https://vuetifyjs.com/): Material Design Component Framework for Vue.js
+- [Julio Sueiras](https://github.com/juliosueiras): Implementation of WebRTC stream for Creality K2
 
 Massive thanks to the whole [Voron Design](http://vorondesign.com/) community. Without them such a project would not be
 possible.

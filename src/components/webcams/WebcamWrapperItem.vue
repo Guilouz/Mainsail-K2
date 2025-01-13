@@ -21,6 +21,9 @@
         <template v-else-if="service === 'webrtc-camerastreamer'">
             <webrtc-camera-streamer-async :cam-settings="webcam" :printer-url="printerUrl" :page="page" />
         </template>
+        <template v-else-if="service === 'webrtc-crealityk2rtc'">
+            <webrtc-crealityk2-rtc-async :cam-settings="webcam" :printer-url="printerUrl" :page="page" />
+        </template>
         <template v-else-if="service === 'webrtc-janus'">
             <janus-streamer-async :cam-settings="webcam" :printer-url="printerUrl" />
         </template>
@@ -53,6 +56,7 @@ import { DynamicCamLoader } from '@/components/webcams/streamers/DynamicCamLoade
         MjpegstreamerAdaptiveAsync: DynamicCamLoader('MjpegstreamerAdaptive'),
         Uv4lMjpegAsync: DynamicCamLoader('Uv4lMjpeg'),
         WebrtcCameraStreamerAsync: DynamicCamLoader('WebrtcCameraStreamer'),
+        WebrtcCrealityk2RtcAsync: DynamicCamLoader('WebrtcCrealityk2Rtc'),
         WebrtcMediaMTXAsync: DynamicCamLoader('WebrtcMediaMTX'),
         WebrtcGo2rtcAsync: DynamicCamLoader('WebrtcGo2rtc'),
     },

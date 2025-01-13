@@ -144,6 +144,14 @@ export const rolloverLogfiles = ['klipper', 'moonraker']
 export const themes: Theme[] = [
     { name: 'mainsail', displayName: 'Mainsail', colorLogo: defaultLogoColor },
     {
+        name: 'creality',
+        displayName: 'Creality',
+        colorLogo: '#54A551',
+        colorPrimary: '#54A551',
+        logo: { show: true, light: false },
+        mainBackground: { show: true, light: false },
+    },
+    {
         name: 'klipper',
         displayName: 'Klipper',
         colorLogo: '#b12f35',
